@@ -67,6 +67,19 @@ p:last-child {
   margin-bottom: 0;
 }
 
+/* Hover - Focus */
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.footer-link-map:hover,
+.footer-link-map:focus,
+.footer-link:hover,
+.footer-link:focus,
+.radiobutton:focus {
+  color: var(--accent-color);
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -74,7 +87,9 @@ img {
 
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
+/* --------------------------------------------  */
 
 /* Main-nav */
 .container {
@@ -179,18 +194,6 @@ img {
   align-items: center;
   margin-left: auto;
 }
-/* Hover - Focus */
-.nav-link:hover,
-.nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus,
-.footer-link-map:hover,
-.footer-link-map:focus,
-.footer-link:hover,
-.footer-link:focus,
-.radiobutton:focus {
-  color: var(--accent-color);
-}
 
 /* Hero */
 .hero-section {
@@ -250,9 +253,6 @@ img {
 }
 
 /* Секция Наши преимущества (Заголовки) */
-.about-section {
-  padding-top: 94px;
-}
 .about-list {
   display: flex;
 }
@@ -269,6 +269,7 @@ img {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+
 /* Секция Наши преимущества (Текст)  */
 .about-text {
   display: flex;
@@ -279,7 +280,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 /* Секция Чем мы занимаемся */
+.section-image {
+  padding-top: 0;
+}
 .image-header {
   margin-bottom: 50px;
   font-weight: 700;
@@ -298,10 +303,8 @@ img {
 }
 
 /* Секция Наша Команда */
-
 .ourteam-section {
   background-color: var(--ourteam-bacground-color);
-  padding-top: 94px;
 }
 
 .ourteam-list {
@@ -417,10 +420,7 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-.main-content {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .main-item {
   display: flex;
 }
@@ -445,9 +445,7 @@ img {
   flex-wrap: wrap;
 }
 .menu-list > .menu-item {
-  /* width: 370px; */
   flex-basis: calc(100% / 3 - 30px);
-  border: 1px solid var(--portfolio-border-color);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -458,6 +456,7 @@ img {
 
 .menu-item-content {
   padding: 20px 24px;
+  border: 1px solid var(--portfolio-border-color);
 }
 .menu-header {
   margin-bottom: 4px;
