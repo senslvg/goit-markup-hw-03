@@ -273,7 +273,6 @@ img {
 /* Секция Наши преимущества (Текст)  */
 .about-text {
   display: flex;
-  margin-bottom: 0;
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
@@ -396,7 +395,6 @@ img {
 
 /* ---------------Portfolio.html--------------- */
 /* Кнопки */
-
 .radiobutton {
   cursor: pointer;
   background-color: var(--ourteam-bacground-color);
