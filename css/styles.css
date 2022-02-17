@@ -324,10 +324,6 @@ img {
   margin-top: 30px;
 }
 
-.ourteam-img {
-  margin-bottom: 30px;
-}
-
 .ourteam {
   margin-bottom: 50px;
   font-weight: 700;
@@ -338,8 +334,10 @@ img {
   color: var(--title-text-color);
 }
 .ourteam-card-content {
-  text-align: center;
+  padding: auto;
+  padding-top: 30px;
   padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 /* Список сотрудников абзац */
 .ourteam-co-worker {
@@ -448,10 +446,6 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-}
-
-.menu-img {
-  display: block;
 }
 
 .menu-item-content {
