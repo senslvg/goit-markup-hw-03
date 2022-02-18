@@ -150,10 +150,6 @@ img {
   align-items: center;
 }
 
-.nav-item {
-  align-items: center;
-}
-
 /* .nav-item + .nav-item{
   margin-left: 50px;
 } */
@@ -183,9 +179,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.contacts-item {
-  align-items: center;
-}
+
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -227,8 +221,6 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-text-color);
