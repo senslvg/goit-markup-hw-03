@@ -82,6 +82,7 @@ p:last-child {
 
 img {
   display: block;
+  height: auto;
   max-width: 100%;
 }
 
@@ -252,7 +253,6 @@ img {
   margin-right: 30px;
 }
 .about-header {
-  display: flex;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -264,7 +264,6 @@ img {
 
 /* Секция Наши преимущества (Текст)  */
 .about-text {
-  display: flex;
   width: 270px;
   font-size: 14px;
   line-height: 1.71;
