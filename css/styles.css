@@ -333,10 +333,8 @@ img {
   color: var(--title-text-color);
 }
 .ourteam-card-content {
-  padding: auto;
   padding-top: 30px;
   padding-bottom: 30px;
-  /* padding-bottom: 30px; */
 }
 /* Список сотрудников абзац */
 .ourteam-co-worker {
